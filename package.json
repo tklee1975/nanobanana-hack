@@ -15,6 +15,7 @@
     "@google/genai": "^1.17.0",
     "@mui/material": "^7.3.2",
     "react": "^19.1.1",
+    "react-compare-image": "^3.5.9",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.2"
   },

@@ -12,6 +12,9 @@ export default function Router() {
         {
             path: "/",
             element: <Home />
+        }, {
+            path: "/home",
+            element: <Home />
         }
     ]);
 

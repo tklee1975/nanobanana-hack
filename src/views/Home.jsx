@@ -1,13 +1,23 @@
-import React from 'react';
+import {
+    Container,
+    Typography,
+    Box,
+    Stack,
+    Divider,
+} from "@mui/material";
 
-export default function Page() {
-    console.log("Home view");
+import NanoMechRevealer from "../components/NanoMechRevealer";
+
+export default function Home() {
+
     return (
-        <div>
-            <h1>Home view</h1>
-            <pre>
-                testing 123123
-            </pre>
-        </div>
-    );
+        <Stack direction="column">
+            <Typography variant="h4">Mechanical X-Ray</Typography>
+            <Typography sx={{ color: '#aaa' }} variant="h6">Mech Revealer Test</Typography>
+            <Divider color="white" sx={{ my: 2 }} />
+            <Box>
+                <NanoMechRevealer />
+            </Box>
+        </Stack>
+    )
 }
