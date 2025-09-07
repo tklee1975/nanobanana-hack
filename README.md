@@ -1,12 +1,23 @@
-# React + Vite
+# NanoBanana Hackathon Project - Mechanical X-Ray
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mechanical X-Ray is a tool that leverages the nano-banana library to generate visualizations of the internal mechanics of any given object. By analyzing input data, the project reconstructs the object's inner structure and uses Compare-image to provide intuitive side-by-side visual comparisons. This enables users to better understand and explore the hidden mechanical components within various objects.
 
-Currently, two official plugins are available:
+## Features
+- Mechanical Inside of the given object
+- Provide samples for easy testing
+- Side-by-Side Visual Comparison
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+    ```bash
+    yarn
+    ```
+2. **Start the development server:**
+    ```bash
+    yarn dev
+    ```
+3. **Build for production:**
+    ```bash
+    yarn build
+    ```
